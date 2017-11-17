@@ -1,8 +1,6 @@
 # About
 
-Repo for reproducing `Module not found: Error: Can't resolve './app.module.ngfactory'` when invoking `ionic build --prod`
-
-The issue is related to the `(ngModelChange)` in `home.html`. Remove it from the code and `ionic build --prod` no longer fails.
+Repo for reproducing https://github.com/ionic-team/ionic/issues/13453
 
 ## Steps to Reproduce
 
